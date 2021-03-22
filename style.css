@@ -1,0 +1,65 @@
+body{
+   position:relative;
+   height: 100vh;
+   margin: 0;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-image: url('https://massets1.9stacks.com/assets/pwa-icons/spin-the-wheel/spotlight_spinthewheel.png'), linear-gradient(to bottom, #a3b9d0, #8644db);
+   background-size: cover;
+   background-repeat: no-repeat;
+  background-position: center;
+}
+text {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13.5px;
+  
+  pointer-events: none;
+  font-weight: bold;
+  
+}
+.holder{
+    display: inline-block;
+    background-color: rgba(255, 255, 255,0.2);
+    height: fit-content;
+    padding: 3%;
+    border-radius: 3px;
+
+
+    /* top: 50%; */
+    
+    
+}
+#chart {
+  position: relative;
+  /* backdrop-filter: blur(5px); */
+  display: inline-block;
+  width: 500px;
+  height: 500px;
+
+
+}
+#question {
+  position: relative;
+  display: inline-block;
+  /* backdrop-filter: blur(5px); */
+  width: 400px;
+  height: 500px;
+  /* display: flex; */
+  justify-content: center;
+  flex-wrap: wrap;
+  
+}
+#question h1 {
+  font-size: 38px;
+  line-height: 1.4em;
+  font-weight: bold;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  position: absolute;
+  padding: 10px;
+  margin: 0;
+  top: 50%;
+  /* -webkit-transform: translate(0, -50%); */
+  transform: translate(0, -50%);
+}
+
